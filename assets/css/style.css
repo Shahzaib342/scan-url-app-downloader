@@ -8,7 +8,7 @@
 .container ul li > input {
     margin-right: 5px;
 }
-.container.main-page ul li, .enter-url-text {
+.container ul li, .enter-url-text, .scanning-url-text {
     color:#fff;
 }
 #scanner-complete-form input {

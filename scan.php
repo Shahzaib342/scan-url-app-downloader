@@ -23,6 +23,7 @@
         </div>
     </div>
 </nav>
+<div class="row">
 <div class="container">
     <p class="scanning-url-text">Scanning: <?php echo $_POST['url'] ?> (scan id: 85)</p>
     <div id="myProgress">
@@ -38,6 +39,7 @@
         <input type="submit" value="Submit">
     </form>
 </div>
+</div>
 
 </body>
 </html>
@@ -45,7 +47,7 @@
 <script>
     function move() {
         var elem = document.getElementById("myBar");
-        elem.style.background = "#4CAF50";
+        elem.style.background = "#08a4b0";
         var width = 10;
         var id = setInterval(frame, 50);
         function frame() {
