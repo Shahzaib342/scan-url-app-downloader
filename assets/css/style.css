@@ -30,3 +30,7 @@
 #scanner-complete-form{
     display: none;
 }
+.container #scan-form{
+    width: 50%;
+    margin: auto;
+}

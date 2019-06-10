@@ -16,7 +16,7 @@
 </head>
 <body onload="move();">
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <img src="assets/images/SenseIT.jpg" alt="Sesnse It" width="100">
