@@ -23,7 +23,6 @@
         </div>
     </div>
 </nav>
-
 <div class="container">
     <p class="scanning-url-text">Scanning: <?php echo $_POST['url'] ?> (scan id: 85)</p>
     <div id="myProgress">

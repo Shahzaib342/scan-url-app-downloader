@@ -4,25 +4,31 @@
     <title>Url Scanner</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/Bootstrap.min.css">
+    <!--<link rel="stylesheet" href="assets/css/Bootstrap.min.css">-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="/assets/js/jQuery.min.js"></script>
-    <script src="/assets/js/Bootstrap.min.js"></script>
+    <!--<script src="/assets/js/jQuery.min.js"></script>-->
+    <!--<script src="/assets/js/Bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <img src="assets/images/SenseIT.jpg" alt="Sesnse It" width="100">
-        </div>
-    </div>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <img src="assets/images/SenseIT.jpg" alt="Sesnse It" width="100">
 </nav>
-
-<div class="container">
+<div class="row">
+<div class="container main-page">
+    <p class="try-url">Try a Url to scan (BETA)</p>
     <form method="post" action="scan.php" id="scan-form">
-        <label>Url:</label>
-        <input type="text" name="url" id="url"></br></br>
+        <p class="enter-url-text">Enter a Url to including (http:// or https://)</p>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control"  id="url" name="url">
+            <div class="input-group-append">
+                <span class="input-group-text">Enter Url</span>
+            </div>
+        </div>
         <p class="scan-type">Scan type?</p>
         <ul>
             <li><input type="radio" name="scan-type" value="Single">Single</li>
@@ -30,6 +36,7 @@
         </ul>
         <input type="submit" value="Submit">
     </form>
+</div>
 </div>
 
 </body>

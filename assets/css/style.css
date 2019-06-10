@@ -3,9 +3,13 @@
 }
 .scan-type {
     font-weight: 700;
+    color: #fff;
 }
 .container ul li > input {
     margin-right: 5px;
+}
+.container.main-page ul li, .enter-url-text {
+    color:#fff;
 }
 #scanner-complete-form input {
     margin-left: 5px;
@@ -30,7 +34,17 @@
 #scanner-complete-form{
     display: none;
 }
-.container #scan-form{
-    width: 50%;
-    margin: auto;
+.row{
+    background: #2c61ad;
+    margin-right: 15px!important;
+    margin-left: 15px!important;
+    margin-top: 15px!important;
+}
+.container{
+    padding: 50px;
+}
+.try-url{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
 }
