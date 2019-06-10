@@ -31,7 +31,7 @@
     </div>
     <form method="post" action="download.php" id="scanner-complete-form">
         <p class="scan-type">Download results</p>
-        <ul>
+        <ul style="list-style: none">
             <li>Word:<input type="checkbox" name="download-file[]" value="word"></li>
             <li>Csv:<input type="checkbox" name="download-file[]" value="csv"></li>
             <li>Json:<input type="checkbox" name="download-file[]" value="json"></li>
